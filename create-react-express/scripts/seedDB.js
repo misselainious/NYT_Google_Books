@@ -18,7 +18,16 @@ const bookSeed = [
       image:"https://images-eu.ssl-images-amazon.com/images/I/51iKrAFkNQL.jpg",
       link: "https://www.amazon.com/dp/B07JJ25HJC/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1",
       date: new Date(Date.now())
-    }
+    },
+    {
+        title: "Becoming Michelle Obama",
+        author: "Michelle Obama",
+        description:
+          "A story of intellegence and nice arms.",
+        image:"hhttps://target.scene7.com/is/image/Target/GUEST_aff26ecc-9847-4fe3-8ac7-6e2ada4c32f2?wid=488&hei=488&fmt=pjpeg",
+        link: "https://www.amazon.com/s/?ie=UTF8&keywords=becoming+michelle+obama&tag=googhydr-20&index=aps&hvadid=250280491172&hvpos=1t3&hvnetw=g&hvrand=1248072021797947011&hvpone=&hvptwo=&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032059&hvtargid=kwd-418306961703&ref=pd_sl_13w8ftam09_e",
+        date: new Date(Date.now())
+      }
   ];
 
   db.Book

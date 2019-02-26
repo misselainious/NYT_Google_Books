@@ -10,26 +10,24 @@ var BookSchema = new Schema({
   // `string` must be of type String. We "trim" it to remove any trailing white space
   // `string` is a required field, and a custom error message is thrown if it is not supplied
   title: {
-    type: String,
-    trim: true,
-    required: "String is Required"
+    type: String
   },
   author: {
     type: String
-  },
-  description: {
-    type: String
-  },
-  image: {
-    type: String
-  },
-  link: {
-    type: String
   }
+  // description: {
+  //   type: String
+  // },
+  // image: {
+  //   type: String
+  // },
+  // link: {
+  //   type: String
+  // }
 });
 
 // This creates our model from the above schema, using mongoose's model method
-var Example = mongoose.model("Book", BookSchema);
+var Book = mongoose.model("Book", BookSchema);
 
 // Export the Example model
 module.exports = Book;
